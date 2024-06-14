@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(108, 6, 204);
+    color: wheat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(46, 7, 82);
+}
+
+.left{
+    
+    font-size: 2rem;
+    /* font-size:25px; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 990;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+    color:  rgb(108, 6, 204);
+}
+.FirstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.LeftSection{
+   
+    width: 30%;
+    font-size: 3.5rem;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.LeftSection .btn{
+    padding: 12px;
+    background-color: rgb(46, 7, 82);
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.LeftSection .btn1{
+    padding: 12px;
+    background-color: rgb(46, 7, 82);
+    color: white;
+    border: 2px solid white;
+    border-radius: 26px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#element{
+    color:  rgb(25, 4, 44);
+}
+main hr{
+    margin: 30px 90px;
+    border: 0;
+    height: 2px;
+    background-color:  rgb(25, 4, 44);
+}
+/* .RightSection{
+    
+    width: 30%;
+} */
+.name_color{
+    color: rgb(25, 4, 44);
+}
+
+.RightSection img{
+    margin-top: 40px;
+    width: 80%;
+    margin-right: 100px;
+    
+    
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    
+}
+.secondSection .h{
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+.text_po{
+    color: rgb(25, 4, 44);
+}
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.secondSection .vertical{
+    background-color: white;
+    width: 1px;
+    height: 80px;
+    /* display: flex; */
+    margin: 0 110px;
+}
+.image_top{
+    width: 79px;
+    position: relative;
+    top: -80px;
+    left: -27px;
+}
+.vertical_title{
+    position: relative;
+    width: 120px;
+    left: -40px;
+    
+    color: white;
+    font-size: larger;
+    transition: 1s;
+}
+.vertical_title:hover{
+    color:  rgb(25, 4, 44);;
+    
+}
+.vertical_desc{
+    position: relative;
+    left: -60px;
+    width: 160px;
+    height: 200px;
+    margin-top: 10px;
+    font-size: 16px;
+    
+    color:  rgb(25, 4, 44);
+}
+/* footer{
+    background-color: rgb(46, 7, 82);
+    margin: 23px 25px;
+    height: 30px;
+} */
+footer{
+    background-color:  rgb(25, 4, 44);
+    height: 185px;
+}
+.footer{
+    display: flex;
+    padding:  23px 0px;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.foote1 h2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+footer ul li{
+    list-style: none;
+    font-weight: lighter;
+    margin: 3px 23px;
+}
+footer ul li a{
+   text-decoration: none;
+   color: white;
+}
+footer ul li a:hover{
+    color:  rgb(108, 6, 204);
+}
+.copy{
+    display: flex;
+    justify-content: center;
+ }
+/*
+ @media  screen and (max-width: 1245px) {
+    body{
+        background-color: red;
+    }
+    .FirstSection{
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width : fit-content;
+    }
+    .secondSection .vertical{
+        height: 340px;
+    }
+    .secondSection .vertical_title{
+        top: -72px;
+    }
+    .secondSection .vertical_desc{
+        top: -72px;
+    }
+} */
